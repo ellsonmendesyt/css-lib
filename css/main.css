@@ -29,21 +29,19 @@ img {
   display: block;
   padding: 0.75rem;
   border: 1px solid #ddd;
-  -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 300px;
+  max-width: 400px;
 }
-
 .card .card-title {
-  font-size: 1rem;
+  font-size: 2rem;
   padding-top: 0.75rem;
   font-weight: bold;
 }
-
 .card .card-body {
   font-size: 1rem;
 }
-
 .card .card-body a {
   text-decoration: underline;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
