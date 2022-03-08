@@ -2,37 +2,4 @@ h1 {
   color: #f6c31c;
   margin-bottom: 0.75rem;
 }
-
-body {
-  background-color: transparent;
-}
-
-.error {
-  color: #d32752;
-  border-color: #d32752;
-  border-style: solid;
-  margin: 0.75rem;
-  padding: 0.75rem;
-  border-radius: 20px;
-  border-width: 1px;
-}
-
-.notification {
-  color: #1ac888;
-  border-color: #1ac888;
-  border-style: solid;
-  margin: 0.75rem;
-  padding: 0.75rem;
-  border-radius: 20px;
-  border-width: 1px;
-}
-
-button {
-  color: #fff;
-  border: 0;
-  background-color: #326dee;
-  cursor: pointer;
-  border-radius: 20px;
-  padding: 0.75rem;
-}
 /*# sourceMappingURL=variables.css.map */
