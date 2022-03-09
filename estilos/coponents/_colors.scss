@@ -3,11 +3,7 @@
         color:$val
     }
 
-    .text-hover-#{$key}{
-        &:hover{
-          color:$val;  
-        }
-    }
+    
 
 
     .bg-#{$key}{
@@ -21,15 +17,26 @@
         .text-#{$key}-light-#{$i}{
             color:mix(white, $val, $i*10)
         }
+        .text-#{$key}-light-#{$i}{
+            color: mix(white,$val, $i * 10);
+        }
 
-        .bg-#{$key}-light-#{$i}{
-            background:mix(white,$val, $i*10);
+        .bg-hover-#{$key}-light-#{$i}{
+            &:hover{
+                background:mix(white,$val, $i*10);
+            }
         }
     }
     // dark variations
     @for $i from 1 to 10{
         .text-#{$key}-dark-#{$i}{
             color:mix(black, $val, $i*10)
+        }
+
+        .text-hover-#{$key}-dark-#{$i}{
+            &:hover{
+                color: mix(black,$val, $i * 10);
+            }
         }
 
         .bg-#{$key}-dark-#{$i}{
