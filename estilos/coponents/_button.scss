@@ -12,7 +12,7 @@
 }
 
 
-// .btn-primary
+// pull the colors to create btn variation classes
 @each $key, $val in $colors{
     .btn-#{$key}{
     @include btn($val);
@@ -30,6 +30,15 @@
 
         &:hover{
             background-color: $val;
+        }
+    }
+
+    .btn-complement-#{$key}{
+        @include btn($val);
+
+        &:hover{
+            color:lite-comp($val);
+            background-color:lite-comp($val);
         }
     }
 }
