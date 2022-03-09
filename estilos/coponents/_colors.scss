@@ -2,11 +2,21 @@
     .text-#{$key}{
         color:$val
     }
+
+    .text-hover-#{$key}{
+        &:hover{
+          color:$val;  
+        }
+    }
+
+
     .bg-#{$key}{
         background-color:$val
     }
 
     // light variations
+
+    @if($val != black and $val != white){
     @for $i from 1 to 10{
         .text-#{$key}-light-#{$i}{
             color:mix(white, $val, $i*10)
@@ -27,10 +37,20 @@
         }
     }
 }
+}
 
 
 // .text-prmary-light-7
 // .text-prmary-dark-7
 
 
-
+// CONDICIONAIS
+@if(10 > 14){
+    .teste-if{
+        color:orangered;
+    }
+}@else{
+    .test-if{
+        color:dodgerblue;
+    }
+}

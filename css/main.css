@@ -33,6 +33,10 @@ img {
   color: #326dee;
 }
 
+.text-hover-primary:hover {
+  color: #326dee;
+}
+
 .bg-primary {
   background-color: #326dee;
 }
@@ -182,6 +186,10 @@ img {
 }
 
 .text-secondary {
+  color: #1ac888;
+}
+
+.text-hover-secondary:hover {
   color: #1ac888;
 }
 
@@ -337,6 +345,10 @@ img {
   color: #d32752;
 }
 
+.text-hover-error:hover {
+  color: #d32752;
+}
+
 .bg-error {
   background-color: #d32752;
 }
@@ -486,6 +498,10 @@ img {
 }
 
 .text-info {
+  color: #f6c31c;
+}
+
+.text-hover-info:hover {
   color: #f6c31c;
 }
 
@@ -641,6 +657,10 @@ img {
   color: dodgerblue;
 }
 
+.text-hover-blue:hover {
+  color: dodgerblue;
+}
+
 .bg-blue {
   background-color: dodgerblue;
 }
@@ -790,6 +810,10 @@ img {
 }
 
 .text-red {
+  color: crimson;
+}
+
+.text-hover-red:hover {
   color: crimson;
 }
 
@@ -945,6 +969,10 @@ img {
   color: yellow;
 }
 
+.text-hover-yellow:hover {
+  color: yellow;
+}
+
 .bg-yellow {
   background-color: yellow;
 }
@@ -1094,6 +1122,10 @@ img {
 }
 
 .text-green {
+  color: lime;
+}
+
+.text-hover-green:hover {
   color: lime;
 }
 
@@ -1249,6 +1281,10 @@ img {
   color: orange;
 }
 
+.text-hover-orange:hover {
+  color: orange;
+}
+
 .bg-orange {
   background-color: orange;
 }
@@ -1398,6 +1434,10 @@ img {
 }
 
 .text-purple {
+  color: purple;
+}
+
+.text-hover-purple:hover {
   color: purple;
 }
 
@@ -1553,6 +1593,10 @@ img {
   color: gray;
 }
 
+.text-hover-gray:hover {
+  color: gray;
+}
+
 .bg-gray {
   background-color: gray;
 }
@@ -1702,6 +1746,10 @@ img {
 }
 
 .text-black {
+  color: #060606;
+}
+
+.text-hover-black:hover {
   color: #060606;
 }
 
@@ -1857,152 +1905,16 @@ img {
   color: #fff;
 }
 
+.text-hover-white:hover {
+  color: #fff;
+}
+
 .bg-white {
   background-color: #fff;
 }
 
-.text-white-light-1 {
-  color: white;
-}
-
-.bg-white-light-1 {
-  background: white;
-}
-
-.text-white-light-2 {
-  color: white;
-}
-
-.bg-white-light-2 {
-  background: white;
-}
-
-.text-white-light-3 {
-  color: white;
-}
-
-.bg-white-light-3 {
-  background: white;
-}
-
-.text-white-light-4 {
-  color: white;
-}
-
-.bg-white-light-4 {
-  background: white;
-}
-
-.text-white-light-5 {
-  color: white;
-}
-
-.bg-white-light-5 {
-  background: white;
-}
-
-.text-white-light-6 {
-  color: white;
-}
-
-.bg-white-light-6 {
-  background: white;
-}
-
-.text-white-light-7 {
-  color: white;
-}
-
-.bg-white-light-7 {
-  background: white;
-}
-
-.text-white-light-8 {
-  color: white;
-}
-
-.bg-white-light-8 {
-  background: white;
-}
-
-.text-white-light-9 {
-  color: white;
-}
-
-.bg-white-light-9 {
-  background: white;
-}
-
-.text-white-dark-1 {
-  color: #e6e6e6;
-}
-
-.bg-white-dark-1 {
-  background: #e6e6e6;
-}
-
-.text-white-dark-2 {
-  color: #cccccc;
-}
-
-.bg-white-dark-2 {
-  background: #cccccc;
-}
-
-.text-white-dark-3 {
-  color: #b3b3b3;
-}
-
-.bg-white-dark-3 {
-  background: #b3b3b3;
-}
-
-.text-white-dark-4 {
-  color: #999999;
-}
-
-.bg-white-dark-4 {
-  background: #999999;
-}
-
-.text-white-dark-5 {
-  color: gray;
-}
-
-.bg-white-dark-5 {
-  background: gray;
-}
-
-.text-white-dark-6 {
-  color: #666666;
-}
-
-.bg-white-dark-6 {
-  background: #666666;
-}
-
-.text-white-dark-7 {
-  color: #4d4d4d;
-}
-
-.bg-white-dark-7 {
-  background: #4d4d4d;
-}
-
-.text-white-dark-8 {
-  color: #333333;
-}
-
-.bg-white-dark-8 {
-  background: #333333;
-}
-
-.text-white-dark-9 {
-  color: #1a1a1a;
-}
-
-.bg-white-dark-9 {
-  background: #1a1a1a;
+.test-if {
+  color: dodgerblue;
 }
 
 .card {
